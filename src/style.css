@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.quiz {
+    width: 400px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px black solid;
+    padding: 10px;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.questions div{
+    cursor: pointer;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
