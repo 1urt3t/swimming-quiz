@@ -1,10 +1,10 @@
 import React from 'react';
-import Quiz from './components/quiz';
+import Quiz from './Quiz';
 
 function App() {
   return (
-    <div>
-      <Quiz />
+    <div className='app'>
+      Quiz
     </div>
   );
 }
