@@ -4,7 +4,7 @@ import Quiz from './Quiz';
 function App() {
   return (
     <div className='app'>
-      Quiz
+      <Quiz/>
     </div>
   );
 }
