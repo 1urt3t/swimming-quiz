@@ -95,6 +95,7 @@ body {
     padding-bottom: 15px;
 }
 .answer-active {
+    border-radius: 3px;
     background-color: #a1e2d6;
     cursor: pointer;
     color: #333333;
