@@ -5,7 +5,7 @@ const Game = ({ answerAFn , btnNext , questionStep , answerA , step}) => {
         <div className="Game">
             <div className="header">
                 <div className="header-text">{questionStep.question}</div>
-                <div className="header-text">{step + 1}/4</div>
+                <div className="header-text">{step + 1}/6</div>
             </div>
             <div className="answers">
                 {questionStep.answers.map((item, index) => (

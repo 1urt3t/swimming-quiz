@@ -18,6 +18,16 @@ const question = [
         question: 'What is the most popular swimming brand?',
         answers: ['TYR', 'Speedo', 'Arena' , 'Mad Wave'],
         correct: 2
+    },
+    {
+        question: 'When was swimming added to the Olympics?',
+        answers: ['1923', '1885', '1935' , '1896'],
+        correct: 3
+    },
+    {
+        question: 'What is the oldest style of swimming?',
+        answers: ['Breaststroke', 'Backstroke', 'Freestyle' , 'Butterfly'],
+        correct: 0
     }
 ]
 export default question
