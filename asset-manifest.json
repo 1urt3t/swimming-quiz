@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/swimming-quiz/static/css/main.6c61a525.css",
-    "main.js": "/swimming-quiz/static/js/main.6f68fa35.js",
+    "main.js": "/swimming-quiz/static/js/main.8240d11d.js",
     "index.html": "/swimming-quiz/index.html",
     "main.6c61a525.css.map": "/swimming-quiz/static/css/main.6c61a525.css.map",
-    "main.6f68fa35.js.map": "/swimming-quiz/static/js/main.6f68fa35.js.map"
+    "main.8240d11d.js.map": "/swimming-quiz/static/js/main.8240d11d.js.map"
   },
   "entrypoints": [
     "static/css/main.6c61a525.css",
-    "static/js/main.6f68fa35.js"
+    "static/js/main.8240d11d.js"
   ]
 }
