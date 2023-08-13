@@ -143,3 +143,54 @@ body {
     text-decoration: none;
     padding: 30px 70px;
 }
+@media (max-width: 768px) {
+    .Quiz {
+        width: 500px;
+        height: 400px;
+    }
+    .header-text {
+        color: #333333;
+        font-size: 20px;
+    }
+    .answer {
+        cursor: pointer;
+        color: #333333;
+        font-size: 18px;
+        border-bottom: 1px solid black;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .Quiz {
+        width: 280px;
+        height: 400px;
+    }
+    .start-header {
+        font-size: 30px;
+        color: #333333;
+    }
+    .start-desk {
+        font-size: 18px;
+        text-align: center;
+        color: #333333;
+    }
+    .start-btn button {
+        color:  #FFFFFF;
+        background-color: #FF6B6B;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 30px 80px;
+        border: none;
+        border-radius: 10px
+    }
+    .header-text {
+        color: #333333;
+        font-size: 18px;
+    }
+    .result-text {
+        color: #333333;
+        font-size: 40px;
+        text-align: center;
+    }
+}

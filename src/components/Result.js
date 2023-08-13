@@ -5,7 +5,7 @@ const Result = ({correct}) => {
             <div className="result-text">
                 You answer on {correct}/4 questions
             </div>
-            <div className="result-btn"><a href="/">Again</a></div>
+            <div className="result-btn"><a href="https://1urt3t.github.io/swimming-quiz/">Again</a></div>
         </div>
     )
 }
