@@ -1,4 +1,5 @@
 import React from "react";
+import question from "./questions";
 
 const Game = ({ answerAFn , btnNext , questionStep , answerA , step}) => {
     return (
@@ -15,7 +16,9 @@ const Game = ({ answerAFn , btnNext , questionStep , answerA , step}) => {
                 ))}
             </div>
             <div className="btn-next">
-                <button onClick={btnNext}>Next</button>
+                {
+                    step != question.length-1 ? <button onClick={btnNext}>Next</button> : <button onClick={btnNext}>Finish</button>
+                }
             </div>
         </div>
     );
