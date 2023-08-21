@@ -1,12 +1,13 @@
 import React from "react";
-const Result = ({correct}) => {
+const Result = ({correct, correctList}) => {
     return (
         <div className="Result">
             <div className="result-text">
                 You answer on {correct}/6 questions
             </div>
-            <div className="result-btn"><a href="https://1urt3t.github.io/swimming-quiz/">Again</a></div>
+            <div className="result-btn"><a href="/">Again</a></div>
+            <div className="result-results">{correctList}</div>
         </div>
     )
 }
-export default Result
+export default Result 

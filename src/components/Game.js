@@ -1,7 +1,7 @@
 import React from "react";
 import question from "./questions";
 
-const Game = ({ answerAFn , btnNext , questionStep , answerA , step}) => {
+const Game = ({ answerAFn , btnNext , questionStep , answerA , step, correctList}) => {
     return (
         <div className="Game">
             <div className="header">

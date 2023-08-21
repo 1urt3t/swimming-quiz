@@ -12,6 +12,7 @@ const Quiz = () => {
     const questionStep = question[step]
     const [answerA, setAnswerA] = useState(null);
     const [correct, setCorrect] = useState(0);
+    const [correctList, setCorrectList] = useState([])
 
     const answerAFn = (index) => {
         setAnswerA(index)
@@ -19,6 +20,9 @@ const Quiz = () => {
     const btnNext = () => {
         if(answerA === questionStep.correct) {
             setCorrect(correct+1)
+            setCorrectList(correctList.concat(1))
+        } else {
+            setCorrectList(correctList.concat(0))
         }
         if (answerA != null) {
             setAnswerA(null)
@@ -28,7 +32,7 @@ const Quiz = () => {
     return (
         <div className="Quiz">
             {
-                step === false ? <Start setStepZero={setStepZero}/> : step !== question.length ? <Game answerA={answerA} step={step} answerAFn={answerAFn} btnNext={btnNext} questionStep={questionStep}/> : <Result correct={correct}/>
+            step === false ? <Start setStepZero={setStepZero}/> : step !== question.length ? <Game correctList={correctList}answerA={answerA} step={step} answerAFn={answerAFn} btnNext={btnNext} questionStep={questionStep}/> : <Result correct={correct} correctList={correctList}/>
             }
         </div>
     )
